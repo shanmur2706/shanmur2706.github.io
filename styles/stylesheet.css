@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+body{
+    
+    font-family:Poppins;
+    margin: 0px;
+    
+}
+.background{
+    background: linear-gradient(#1a0e0e, #6E1111, #6e0303);
+    background-size: 60% 600%;
+    animation: gradient 4s ease-in-out infinite;
+    animation-direction: alternate;
+  
+}
+header {
+    position: sticky;
+}
+
+
+
+li {
+    list-style: none;
+}
+ 
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+    
+    background-color: #1c1c1c;/*#1c1c1c*/ /*#24502c*/
+    
+    border-style:solid;
+    border-width: 7px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+    border-color:black;
+    border-radius:0em;
+    flex-wrap: wrap;
+    
+}
+@keyframes gradient {   
+    0% {
+        background-position: top;
+    }
+    50% {
+        background-position: right;
+    }
+    
+    100% {
+        background-position: top;
+    }
+}
+
+.titlebar{
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    
+}
+img{
+    display: inline-block;
+    margin: 15px 20px;
+    border-radius: 3em;
+    filter: drop-shadow(0 0 1.5rem slategray);
+    
+    
+}
+
+.titlebar li a{
+    color: #d57406;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/ 
+    text-shadow: -1.50px -1.50px 0 #000, 1.50px -1.50px 0 #000, -1.50px 1.50px 0 #000, 1.50px 1.50px 0 #000;
+    text-decoration:none;
+    font-family: fantasy;
+
+}
+.maintext{
+    color: azure;
+    font-family: Poppins;
+    font-size: 1.35em;
+    padding: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.maintext a{
+    color:azure;
+    text-decoration:underline;
+    
+}
+.menu li a{
+    color: #d57406;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/
+    text-shadow: -1.25px -1.25px 0 #000, 1.25px -1.25px 0 #000, -1.25px 1.25px 0 #000, 1.25px 1.25px 0 #000;
+    text-decoration:none;
+
+}
+.menu {
+    display: flex;
+    gap: 1.25em;
+    font-size: 22px;
+    font-family: fantasy;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.menu li:hover {
+    background-color: #9d0128;
+    border-radius:7px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 10px;
+}
+.sporttitle {
+    font-size: 2.5em;
+    line
+    font-family: Poppins;
+    font-weight: bolder;
+    color: lemonchiffon;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/ /*#ab8815*/
+
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+footer {
+    display: flex;
+    background: #9b0d0d;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    width: fit-content;
+    border: 5px solid transparent;
+    border-radius: 0.5em;
+}
+
