@@ -8,7 +8,7 @@ body{
 .background{
     background: linear-gradient(#1a0e0e, #6E1111, #6e0303);
     background-size: 60% 600%;
-    animation: gradient 4s ease-in-out infinite;
+    animation: gradient 6s ease-in-out infinite;
     animation-direction: alternate;
   
 }
@@ -63,13 +63,20 @@ li {
     align-items: center;
     
 }
-img{
+#logo{
     display: inline-block;
-    margin: 15px 20px;
+    margin: 10px 15px;
     border-radius: 3em;
     filter: drop-shadow(0 0 1.5rem slategray);
     
-    
+}
+.mainimg
+{
+    display: inline-block;
+    margin: 5px 10px;
+    border-radius: 1.5em;
+    filter: drop-shadow(0 0 0.5rem black);
+    width: 30rem;
 }
 
 .titlebar li a{
@@ -102,7 +109,7 @@ img{
 .menu {
     display: flex;
     gap: 1.25em;
-    font-size: 22px;
+    font-size: 1.6rem;
     font-family: fantasy;
     flex-wrap: wrap;
     align-content: flex-end;
