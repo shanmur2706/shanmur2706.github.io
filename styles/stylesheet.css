@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.cdnfonts.com/css/impact);
 body{
     
-    font-family:Poppins;
+    font-family:Poppins, sans-serif;
     margin: 0px;
     
 }
@@ -83,12 +84,12 @@ li {
     color: #d57406;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/ 
     text-shadow: -1.50px -1.50px 0 #000, 1.50px -1.50px 0 #000, -1.50px 1.50px 0 #000, 1.50px 1.50px 0 #000;
     text-decoration:none;
-    font-family: Impact;
+    font-family: Impact, sans-serif;
 
 }
 .maintext{
     color: azure;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 1.35em;
     padding: 100px;
     padding-top: 5px;
@@ -109,23 +110,36 @@ li {
 .menu {
     display: flex;
     gap: 1.25em;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     font-family: fantasy;
     flex-wrap: wrap;
     align-content: flex-end;
 }
+@media screen and (max-width: 768px) {
+    .menu li a {
+        font-size: 2.25rem;
+    }
+}
+
 .menu li:hover {
     background-color: #9d0128;
     border-radius:7px;
     transition: 0.3s ease;
+    filter: 
 }
 .menu li {
     padding: 10px;
 }
 .sporttitle {
     font-size: 2.5em;
-    line
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
+    font-weight: bolder;
+    color: lemonchiffon;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/ /*#ab8815*/
+
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+.subhead {
+    font-family: Poppins, sans-serif;
     font-weight: bolder;
     color: lemonchiffon;/*#e0801b*/ /*rgb(225, 22, 22)*/ /*#46b001*/ /*#ab8815*/
 
@@ -141,5 +155,13 @@ footer {
     width: fit-content;
     border: 5px solid transparent;
     border-radius: 0.5em;
+}
+.feeds ul{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
 }
 
