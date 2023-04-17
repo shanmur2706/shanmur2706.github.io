@@ -77,7 +77,8 @@ header {
     margin: 5px 10px;
     border-radius: 1.5em;
     filter: drop-shadow(0 0 0.5rem black);
-    width: 24rem;
+    width: 20em;
+    height:auto;
 }
 
 .titlebar li a{
@@ -179,7 +180,8 @@ footer {
     margin: 5px 10px;
     border-radius: 1.5em;
     filter: drop-shadow(0 0 0.5rem black);
-    width: 24rem;
+    width: 20em;
+    height:auto;
     float:right;
 }
 
