@@ -6,13 +6,17 @@ body{
     margin: 0px;
     
 }
-.background{
+body.background{
     background: linear-gradient(#1a0e0e, #6E1111, #6e0303);
     background-size: 60% 600%;
     animation: gradient 6s ease-in-out infinite;
     animation-direction: alternate;
   
 }
+body.bg-image {
+    background-image: url("/image/dark-background.jpg");
+}
+
 header {
     position: sticky;
 }
@@ -171,10 +175,8 @@ footer {
     padding-right: 5%;
     padding-bottom: 2%;
 }
-#bg-image
-{
-    background-image: url("/image/dark-background.jpg");
-}
+
+
 .floatimg{
     display: inline-block;
     margin: 5px 10px;
